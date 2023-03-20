@@ -47,6 +47,14 @@
         <nav class="navbar">
             
             <div class="navbar-logo"><img src="/assest/logotipo.png" alt=""></div>
+
+            <form action="/search" method="get">
+              <input type="text" name="query" placeholder="Pesquisar...">
+              <button type="submit">
+                <img src="/assest/lupa.svg" alt="" srcset="">
+              </button>
+            </form>
+
             <div class="navbar-links">
               <a href="#home" class="navbar-link">Início</a>
               <a href="#servicos" class="navbar-link">Serviços</a>
@@ -461,6 +469,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
+    
+    <script>
+      const form = document.querySelector('form');
+      const input = document.querySelector('input[type="text"]');
+      const button = document.querySelector('button[type="submit"]');
+
+      button.addEventListener('click', (event) => {
+        event.preventDefault();
+        form.submit();
+      });
+
+    </script>
     <script>
         $(document).ready(function(){
             $('.service-carousel').slick();
