@@ -1,0 +1,205 @@
+.nossa-equipe {
+  padding: 100px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+  background-image: url(/assest/body-bg.png);
+
+
+  background-position: center;
+}
+
+.equipe-title {
+  margin-bottom: 50px;
+}
+
+.equipe-title .text {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.equipe-title .para {
+  font-size: 18px;
+  color: #555;
+}
+
+.equipe-cdr {
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+  width: calc(25% - 20px);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.equipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.equipe-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.equipe-cdr {
+  flex: 1;
+  max-width: 300px;
+  margin: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.equipe-img {
+  text-align: center;
+  padding-top: 45px;
+
+}
+
+.equipe-img img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+  margin-top: -36px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+
+}
+
+.card-text {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+
+.equipe-img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+}
+
+.equipe-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+
+.card-text {
+  overflow: hidden;
+  max-height: 3.8rem; /* Ajuste o valor para o número de linhas que deseja mostrar */
+  transition: all 1s ease;
+  opacity: 0.7; /* Define a opacidade das últimas duas linhas */
+}
+
+.card-text > *:last-child,
+.card-text > *:last-child::before {
+  opacity: 1; /* Define a opacidade das últimas duas linhas */
+}
+
+.equipe-cdr:hover .card-text {
+  max-height: 100%;
+  transition: all 0.01s ease;
+  opacity: 1; /* Define a opacidade total ao passar o mouse */
+}
+
+.nossa-equipe .equipe-cdr:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+
+.equipe-cdr:hover .equipe-img img {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+  background: #5046C690;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .equipe-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 1rem;
+  }
+  
+  .equipe-cdr {
+  flex: 0 0 auto;
+  margin-right: 1rem;
+  }
+  
+  .equipe-cdr:last-child {
+  margin-right: 0;
+  }
+  }
+  
+  .equipe-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  }
+  
+  .equipe-cdr {
+  flex: 1;
+  max-width: 300px;
+  margin: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .equipe-img {
+  text-align: center;
+  }
+  
+  .equipe-img img {
+  
+  border:5px solid rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  }
+  
+  .card-body {
+  text-align: center;
+  }
+  
+  .card-title {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  }
+  
+  .card-text {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  }

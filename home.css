@@ -1,0 +1,174 @@
+/* Importa a fonte Roboto do Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+     
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilo da pagina home */
+.home{
+    padding-bottom: 50px;
+}
+
+/* Barra de progresso */
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: #f1f1f1;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+
+    position: fixed;
+
+  }
+  
+  .progress-bar {
+    height: 8px;
+    background-color: #5046C6;
+    width: 0%;
+    transition: width 0.5s;
+  }
+  
+  body {
+    position: relative;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #5146c63b;
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: #B5B5B5;
+  }
+  
+  /* Fix Navbar */
+  .home {
+    padding-top: 40px;
+  }
+  
+  
+
+/* Estilo da navbar */
+.navbar {
+    position: fixed;
+    top: 3px;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 32px;
+
+    background-color: rgba(255, 255, 255, 0.767);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(0px);
+
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-logo img{
+    width: 250px;
+    height: auto;
+}
+.navbar-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+.navbar-link {
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.navbar-link:hover {
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 8px;
+    background: #5046C6;
+}
+
+.navbar-button-nav {
+    padding: 10px 20px;
+    border: 2px solid #5046C6;
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+.navbar-button-nav:hover {
+    background-color: #5046C6;
+    color: white;
+}
+
+
+
+
+/* Estilo da seção principal */
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 130px;
+    align-items: center;
+    margin: 100px 50px;
+    width: 1156px;
+    margin: auto;
+    
+}
+.main-section-title {
+    font-size: 36px;
+    font-weight: 100;
+    margin-right: 50px;
+}
+
+.main-section-title h1{
+    padding-top: -6000px;    
+    font-size: 50px;
+    font-weight: 2000;
+}
+
+.main-section-box {
+    /*border: 3px dotted #5046C6;*/
+    padding: 50px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 18px;
+    width: 50%;
+    height: 40vh;
+}
+
+.navbar-button-body {
+    padding: 10px 20px;
+    border: 2px solid #5046C6;
+    background: #5046C6;
+    border-radius: 18px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.navbar-button-body:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 5px #5050C6;
+}

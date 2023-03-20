@@ -1,0 +1,154 @@
+#clientes {
+    margin: 0;
+    padding-top: 60px;
+    height: 60vh;
+
+  }
+
+  #clientes h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #5046C6;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .owl-carousel {
+    max-width: 90vw;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+  }
+
+  .owl-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .owl-carousel .cliente-box {
+    margin-right: 20px;
+    width: 32%;
+    border: #5046C6;
+    
+  }
+  
+  .owl-carousel .cliente-box:last-child {
+    margin-right: 0;
+  }
+  
+  .card {
+    display: flex;
+    border: 1px solid #5146c64b;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    background: #f9f9f9;
+  }
+  
+  
+  .cliente-image {
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    margin: auto;
+
+    border-right: 1px solid #5146c61a;
+  }
+  
+  .cliente-image img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: auto;
+    border: 3px solid #5046C644;
+  }
+  
+  .recomendacao-box {
+    padding: 5px 35px 25px 35px;
+  }
+  
+  .recomendacao-box h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #5046C6;
+    margin-bottom: 10px;
+  }
+  
+  .recomendacao-box p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .recomendacao-box p span {
+    font-weight: 600;
+  }
+  
+  .stars {
+    font-size: 16px;
+    color: #f8d64e;
+    margin-top: 10px;
+  }
+  
+
+  .carousel-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .card-text-equipe {
+    overflow: hidden;
+    max-height: 3.2rem; /* Ajuste o valor para o número de linhas que deseja mostrar */
+    transition: all 1s ease;
+    opacity: 0.7; /* Define a opacidade das últimas duas linhas */
+  }
+  
+  .card-text-equipe > *:last-child,
+  .card-text-equipe > *:last-child::before {
+    opacity: 1; /* Define a opacidade das últimas duas linhas */
+  }
+  
+  .cliente-box:hover .card-text-equipe {
+    max-height: 100%;
+    transition: all 0.01s ease;
+    opacity: 1; /* Define a opacidade total ao passar o mouse */
+  }
+  
+
+  .carousel-arrow.prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #5046C6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    margin-left: 25px;
+  }
+  
+  .carousel-arrow.next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #5046C6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    margin-right: 25px;
+  } 
