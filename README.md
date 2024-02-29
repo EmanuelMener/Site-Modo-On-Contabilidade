@@ -1,6 +1,6 @@
 # Site - Modo On Contabilidade
 
-![Descrição da imagem](assets/Captura%20de%20tela%202024-02-29%20020813.png)
+![capa](assets/Captura%20de%20tela%202024-02-29%20020813.png)
 
 
 
