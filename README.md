@@ -1,6 +1,7 @@
 # Site - Modo On Contabilidade
 
-![capa do projeto](assets/Captura%20de%20tela%202024-02-29%20020813.png)
+![Descrição da imagem](assets/Captura%20de%20tela%202024-02-29%20020813.png)
+
 
 
 !License: MIT
